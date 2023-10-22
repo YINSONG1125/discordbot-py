@@ -32,6 +32,6 @@ async def call(ctx):
     await ctx.send('Callback!')
 
 try:
-    bot.run(MTA3MzYwNjQ3MTg1MTQ2MjcxNw.G4PTKH.k9Yk4ZEFO4oReFuev0TvS4G8Sqa6GIE0KDiTzs)
+    bot.run(Token)
 except discord.errors.LoginFailure as e:
     print("Improper token has been passed.")
